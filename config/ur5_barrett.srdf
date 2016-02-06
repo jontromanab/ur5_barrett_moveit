@@ -27,6 +27,20 @@
         <link name="tool0" />
     </group>
 
+   <group_state name="open" group="endeffector">
+        <joint name="bh_j32_joint" value="0" />
+        <joint name="bh_j12_joint" value="0" />
+        <joint name="bh_j22_joint" value="0" />
+   </group_state>   
+
+   
+
+   <group_state name="half" group="endeffector">
+        <joint name="bh_j32_joint" value="1.57" />
+        <joint name="bh_j12_joint" value="1.57" />
+        <joint name="bh_j22_joint" value="1.57" />
+   </group_state> 
+
    <group_state name="up" group="manipulator">
         <joint name="elbow_joint" value="0" />
         <joint name="shoulder_lift_joint" value="-1.5707" />
