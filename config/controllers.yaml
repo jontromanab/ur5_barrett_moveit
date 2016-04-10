@@ -14,6 +14,7 @@ controller_list:
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     joints:
+     - bh_j11_joint
      - bh_j12_joint
      - bh_j22_joint
      - bh_j32_joint
